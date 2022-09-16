@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head__logos{
+    padding: 0 35px;
+    margin-bottom: 10px;
+    background-color: #020126;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.home__content{
+    width: 84px;
+    height: 84px;
+    background-color: #020126;
+}
+
+.head__links{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link__item{
+    width: auto;
+    text-decoration: none;
+    color: #020126;
+}
+
+.display__link{
+    margin-bottom: 6px;
+}
+
+.arrow__down{
+    font-size: 19px;
+}
+
+.head__image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 780px;
+    margin: 0 0 0 180px;
+}
+
+.image__container{
+    position: relative;
+    display: inline-block;
+}
+
+.image__makup{
+    width: 1420px;
+    height: 780px;
+}
+
+.image__text{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.image__title{
+    font-size: 48px;
+    display: block;
+    margin-right: 200px;
+}
+
+.image__body{
+    font-size: 24px;
+}
+
+.image__body-container{
+    margin-right: 20px;
+    width: 800px;
+}
+
+.image__text-control{
+    position: absolute;
+    bottom: 60px;
+    left: 38%;
+    color: #fafafa;
+    text-align: center;
+}
+
+.arrow__down-display{
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.display__down{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header__info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #020126;
+    color: #fafafa;
+    text-align: center;
+    align-items: center;
+}
+
+.image__container-info{
+    width: 100%;
+}
+
+.image__makup-info{
+    width: 1350px;
+    height: 600px;
+    margin: 0 0 0 200px;
+}
+
+.info__body{
+    position: absolute;
+    top: 24%;
+    width: 800px;
+    left: 28%;
+}
+
+.info__text{
+    color: #fafafa;
+    font-size: 32px;
+}
+
+.info__control{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #020126;
+    color: #fafafa;
+    margin: 30px 0;
+    padding-bottom: 30px;
+}
+
+.info__container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info__title{
+    font-size: 42px;
+}
+
+.info__title h3{
+    display: inline-block;
+    bottom: 10px;
+}
+
+.info__control{
+    font-size: 28px;
+}
+
+.logo-cucaracha{
+    margin-top: 10px;
+}
+
+.info__control-container{
+    background-color: #fafafa;
+    color: #020126;
+}
+
+.container__certificado{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+}
+
+.header__info-certf{
+    font-size: 36px;
+}
+
+.image__text-container{
+    width: 80%;
+    top: 30%;
+    left: 10%;
+}
+
+.logo-certificado{
+    font-size: 280px;
+    color: #868080;
+    margin-left: 740px;
+}
+
+.image__text-cert{
+    font-size: 24px;
+}
+
+.logo__certificado-footer{
+    width: 1400px;
+    height: 680px;
+    margin-left: 190px;
+}
+
+.image__text-container-mod{
+    color: #fafafa;
+}
+
+.container__social{
+    margin: 30px 200px;
+}
+
+.footer__social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social__media{
+    font-size: 48px;
+}
